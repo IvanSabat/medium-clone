@@ -24,6 +24,14 @@ composer require mailgun/mailgun-php php-http/guzzle7-adapter php-http/message
 php artisan breeze:install
 ```
 
+```bash
+php artisan make:model Category -m
+```
+
+```bash
+php artisan make:model Post -mf
+```
+
 ### License
 
 Licensed under the [MIT license](https://opensource.org/licenses/MIT).

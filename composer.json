@@ -10,8 +10,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^12.12.0",
-        "laravel/tinker": "^2.10.1"
+        "laravel/breeze": "^2.3.6",
+        "laravel/framework": "^12.13.0",
+        "laravel/tinker": "^2.10.1",
+        "mailgun/mailgun-php": "^4.3.5",
+        "php-http/guzzle7-adapter": "^1.1",
+        "php-http/message": "^1.16.2",
+        "symfony/http-client": "^7.2.4",
+        "symfony/mailgun-mailer": "^7.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.24.1",
@@ -20,7 +26,8 @@
         "laravel/sail": "^1.42.0",
         "mockery/mockery": "^1.6.12",
         "nunomaduro/collision": "^8.8",
-        "phpunit/phpunit": "^11.5.19"
+        "pestphp/pest": "^3.8.2",
+        "pestphp/pest-plugin-laravel": "^3.2"
     },
     "autoload": {
         "psr-4": {

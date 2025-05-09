@@ -29,7 +29,11 @@ php artisan make:model Category -m
 ```
 
 ```bash
-php artisan make:model Post -mf
+php artisan make:model Post -mfcr
+```
+
+```bash
+php artisan vendor:publish --tag=laravel-pagination
 ```
 
 ### License
